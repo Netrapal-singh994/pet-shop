@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waggy-pet shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header_div">
+      <div class="main_logo">
+        <img src="images/logo.png" alt="logo_image" class="logo_img">
+      </div>
+      <div class="search_menu">
+        <input type="text" placeholder="Search For More Than 10000 Product" class="search_bar">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+      </div>
+      <div class="phon_number">
+        <span class="num_email">
+          Phone
+        </span>
+        <p>+980-34984-089</p>
+      </div>
+      <div class="email">
+        <span class="num_email">
+         Email
+        </span>
+        <p>
+          Waggy@Gmail.com
+        </p>
+      </div>
+    </div>
+    <hr>
+ <div class="nav">
+        <div class="select_category">
+          <select name="dog" id="dogs">
+            <option value="shop">Shop by category</option>
+            <option value="clothes">Clothes</option>
+            <option value="food">Food</option>
+            <option value="food">Food</option>
+            <option value="toy">Toy</option>
+          </select>
+        </div>
+        <div class="list_item">
+            <a>Home </a>
+            <a> Shop</a>
+            <a> Blog</a>
+            <a> Contact</a>
+            <a> Others</a>
+            <a>GET PRO</a>
+        </div>
+        <div class="profile">
+          <i class="fa-solid fa-user icon"></i>
+          <i class="fa-solid fa-heart icon"></i>
+          <i class="fa-solid fa-cart-shopping icon"></i>
+        </div>
+ </div>
+  </header>
+<div class="slider">
+  <div class="slides">
+      <div class="slide hero_container1">
+        <div class="dogs_img">
+          <img src="images/banner-img.png" class="banner">
+        </div>
+        <div class="offer_text">
+          <p class="discount">SAVE 10-20 % OFF</p>
+          <p class="heading">
+            Best Destination<br> For 
+            <span class="text_color">Your Pets</span>
+          </p>
+            <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+        </div>
+      </div>
+      <div class="slide hero_container1">
+        <div class="dogs_img">
+          <img src="images/cat-img.png" class="banner">
+        </div>
+        <div class="offer_text">
+          <p class="discount">SAVE 10-20 % OFF</p>
+          <p class="heading">
+            Best Destination<br> For 
+            <span class="text_color">Your Pets</span>
+          </p>
+            <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+        </div>
+      </div>
+      <div class="slide hero_container1">
+        <div class="dogs_img">
+          <img src="images/dog-img4.png" class="banner">
+        </div>
+        <div class="offer_text">
+          <p class="discount">SAVE 10-20 % OFF</p>
+          <p class="heading">
+            Best Destination<br> For 
+            <span class="text_color">Your Pets</span>
+          </p>
+            <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+        </div>
+      </div>
+  </div>
+  <div class="dots">
+      <span class="dot" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+  </div>
+</div>
+
+<div class="item_shop">
+  <div class="item_seal">
+    <img src="images/foodshop.png" alt="" class="item_name1">
+    <p>Foodies</p>
+  </div>
+  <div class="item_seal">
+    <img src="images/bird.jpg" alt="" class="item_name1">
+    <p>Bird Shop</p>
+  </div>
+  <div class="item_seal">
+    <img src="images/dog shop.png" alt="" class="item_name1">
+    <p>Dog Shop</p>
+  </div>
+  <div class="item_seal">
+    <img src="images/fish.avif" alt="" class="item_name1">
+    <p>Fish Shop</p>
+  </div>
+  <div class="item_seal">
+    <img src="images/cat shop.png" alt="" class="item_name1">
+    <p>Cat Shop</p>
+  </div>
+</div>
+
+<div>
+  <div class="pet_clothing">
+    <div class="clothing">
+      Pet Clothing
+    </div>
+    <div class="shop_btn">
+      <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="clothes_shop">
+  <div class="clothes_shop_item">
+    <div class="card_img">
+  <img src="images/item1.jpg" alt="item1" class="card_img1">
+  <h3>Gray Hoodie</h3>
+    </div>
+    <div class="card_text">
+      <p class="star">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="rating"> 5.0</span>
+        </p>
+        <span class="amount">$18.00</span>
+        <button class="cart_btn">ADD TO CART</button>
+        <i class="fa-solid fa-heart cart_icon"></i>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="clothes_shop_item m_img">
+    <div class="card_img ">
+      <img src="images/item2.jpg" alt="item1" class="card_img1 " >
+      <h3>Gray Hoodie</h3>
+        </div>
+        <div class="card_text">
+          <p class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+           <span class="rating"> 5.0</span>
+            </p>
+            <span class="amount">$18.00</span>
+            <button class="cart_btn">ADD TO CART</button>
+            <i class="fa-solid fa-heart cart_icon"></i>
+    
+        </div>
+  </div>
+  <div class="clothes_shop_item m_img2">
+    <div class="card_img ">
+      <img src="images/item4.jpg" alt="item1" class="card_img1">
+      <h3>Gray Hoodie</h3>
+        </div>
+        <div class="card_text">
+          <p class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+           <span class="rating"> 5.0</span>
+            </p>
+            <span class="amount">$18.00</span>
+            <button class="cart_btn">ADD TO CART</button>
+            <i class="fa-solid fa-heart cart_icon"></i>
+    
+        </div>
+  </div>
+  <div class="clothes_shop_item">
+    <div class="card_img">
+      <img src="images/item3.jpg" alt="item1" class="card_img1">
+      <h3>Gray Hoodie</h3>
+        </div>
+        <div class="card_text">
+          <p class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+           <span class="rating"> 5.0</span>
+            </p>
+            <span class="amount">$18.00</span>
+            <button class="cart_btn">ADD TO CART</button>
+            <i class="fa-solid fa-heart cart_icon"></i>
+    
+        </div>
+  </div>
+</div>
+
+
+
+  <div class="pet_Foodies">
+    <div class="clothing">
+      Pet Clothing
+    </div>
+    <div class="food_option">
+      <a>ALL</a>
+      <a>CAT</a>
+      <a>DOG</a>
+      <a>BIRD</a>
+    </div>
+    <div class="shop_btn">
+      <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+    </div>
+  </div>
+
+
+  <div class="clothes_shop">
+    <div class="clothes_shop_item">
+      <div class="card_img">
+    <img src="images/item9.jpg" alt="item" class="card_img1">
+    <h3>Gray Hoodie</h3>
+      </div>
+      <div class="card_text">
+        <p class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+         <span class="rating"> 5.0</span>
+          </p>
+          <span class="amount">$18.00</span>
+          <button class="cart_btn">ADD TO CART</button>
+          <i class="fa-solid fa-heart cart_icon"></i>
+  
+      </div>
+    </div>
+  
+  
+  
+  
+    <div class="clothes_shop_item m_img">
+      <div class="card_img ">
+        <img src="images/item10.jpg" alt="item1" class="card_img1 " >
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+    </div>
+    <div class="clothes_shop_item m_img2">
+      <div class="card_img ">
+        <img src="images/item11.jpg" alt="item1" class="card_img1">
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+    </div>
+    <div class="clothes_shop_item">
+      <div class="card_img">
+        <img src="images/item12.jpg" alt="item1" class="card_img1">
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+    </div>
+
+    <div class="clothes_shop_item">
+      <div class="card_img">
+    <img src="images/item13.jpg" alt="item1" class="card_img1">
+    <h3>Gray Hoodie</h3>
+      </div>
+      <div class="card_text">
+        <p class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+         <span class="rating"> 5.0</span>
+          </p>
+          <span class="amount">$18.00</span>
+          <button class="cart_btn">ADD TO CART</button>
+          <i class="fa-solid fa-heart cart_icon"></i>
+  
+      </div>
+    </div>
+  
+  
+  
+  
+    <div class="clothes_shop_item m_img">
+      <div class="card_img ">
+        <img src="images/item14.jpg" alt="item1" class="card_img1 " >
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+    </div>
+    <div class="clothes_shop_item m_img2">
+      <div class="card_img ">
+        <img src="images/item15.jpg" alt="item1" class="card_img1">
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+    </div>
+    <div class="clothes_shop_item">
+      <div class="card_img">
+        <img src="images/item16.jpg" alt="item1" class="card_img1">
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+    </div>
+  </div>
+
+
+
+  <div class="hero_container2">
+    <div class="offer_text2">
+      <p class="discount2">UPTO 40 % OFF</p>
+      <p class="heading">
+        Clearance <br>
+        sale !!! 
+      </p>
+        <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+    </div>
+    <div class="dogs_img">
+      <img src="images/banner-img2.png" class="banner">
+    </div>
+  </div>
+
+
+
+    <div class=" slides2">
+        <div class="slide2">
+        <p>
+          At the core of our practice is the idea that <br>cities are the incubators
+          of our greatest<br> achievements,and the best hope for a <br>sustainable future.
+        </p>
+        <span>-Joshima Lin</span>
+
+       </div>
+     </div>
+
+
+      <div class="pet_Foodies">
+        <div class="clothing">
+          Best selling products
+        </div>
+       
+        <div class="shop_btn">
+          <button class="btn">SHOP NOW <i class="fa-solid fa-arrow-right arrow"></i></button>
+        </div>
+      </div>
+
+      <div class="clothes_shop">
+        <div class="clothes_shop_item">
+          <div class="card_img">
+        <img src="images/item17.jpg" alt="item" class="card_img1">
+        <h3>Gray Hoodie</h3>
+          </div>
+          <div class="card_text">
+            <p class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="rating"> 5.0</span>
+              </p>
+              <span class="amount">$18.00</span>
+              <button class="cart_btn">ADD TO CART</button>
+              <i class="fa-solid fa-heart cart_icon"></i>
+      
+          </div>
+        </div>
+      
+      
+      
+      
+        <div class="clothes_shop_item m_img">
+          <div class="card_img ">
+            <img src="images/item18.jpg" alt="item1" class="card_img1 " >
+            <h3>Gray Hoodie</h3>
+              </div>
+              <div class="card_text">
+                <p class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                 <span class="rating"> 5.0</span>
+                  </p>
+                  <span class="amount">$18.00</span>
+                  <button class="cart_btn">ADD TO CART</button>
+                  <i class="fa-solid fa-heart cart_icon"></i>
+          
+              </div>
+        </div>
+        <div class="clothes_shop_item m_img2">
+          <div class="card_img ">
+            <img src="images/item19.jpg" alt="item1" class="card_img1">
+            <h3>Gray Hoodie</h3>
+              </div>
+              <div class="card_text">
+                <p class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                 <span class="rating"> 5.0</span>
+                  </p>
+                  <span class="amount">$18.00</span>
+                  <button class="cart_btn">ADD TO CART</button>
+                  <i class="fa-solid fa-heart cart_icon"></i>
+          
+              </div>
+        </div>
+        <div class="clothes_shop_item">
+          <div class="card_img">
+            <img src="images/item20.jpg" alt="item1" class="card_img1">
+            <h3>Gray Hoodie</h3>
+              </div>
+              <div class="card_text">
+                <p class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                 <span class="rating"> 5.0</span>
+                  </p>
+                  <span class="amount">$18.00</span>
+                  <button class="cart_btn">ADD TO CART</button>
+                  <i class="fa-solid fa-heart cart_icon"></i>
+          
+              </div>
+        </div>
+    
+      </div>
+
+     <div class="contact_bg">
+      <div class="contact">
+        <p>Get 20% Off On <br>
+          <span>Fist Purchase</span></p>
+         <form>
+          <input type="text" placeholder="Enter Your Email Address">
+          <input type="password" placeholder="Create Password">
+          <input type="password" placeholder="Repeat Password">
+          <button>REGISTER IT NOW</button>
+         </form>
+      </div>
+     </div>
+      
+     <div class="pet_Foodies">
+      <div class="clothing">
+        Latest Blog Post
+      </div>
+     
+      <div class="shop_btn">
+        <button class="btn">READ ALL <i class="fa-solid fa-arrow-right arrow"></i></button>
+      </div>
+    </div>
+
+<div class="blog_container">
+   <div class="blog_div">
+    <img src="images/blog1.jpg" class="blog1">
+    <h3>10 Reasons to be helpful towards any animals</h3>
+    <p>At the core of our practice is the idea that cities are the incubators of our greatest achievements, and the best hope for a sustainable future.</p>
+    <a>READ MORE</a>
+   </div>
+   <div class="blog_div">
+    <img src="images/blog2.jpg" class="blog2">
+    <h3>How To Know Your Pet Is Hungry</h3>
+    <p>At the core of our practice is the idea that cities are the incubators of our greatest achievements, and the best hope for a sustainable future.</p>
+    <a>READ MORE</a>
+   </div>
+   <div class="blog_div">
+    <img src="images/blog3.jpg" class="blog3">
+    <h3>Best Home For Your Pets</h3>
+    <p>At the core of our practice is the idea that cities are the incubators of our greatest achievements, and the best hope for a sustainable future.</p>
+    <a>READ MORE</a>
+   </div>
+</div>
+
+<div class="card_offer">
+  <div class="card_offer_div">
+     <img src="images/delivery.jpg" class="card_offer_img">
+     
+      <h3>Free Delivery</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+    
+  </div>
+  
+  <div class="card_offer_div">
+     <img src="images/payment1.jpg" class="card_offer_img">
+     <h3>100% secure payment</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+
+    </div>
+  <div class="card_offer_div"> 
+    <img src="images/Special-offer.png" class="card_offer_img">
+    <h3>Daily Offer</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+  </div>
+  <div class="card_offer_div">
+     <img src="images/best-quality.jpg" class="card_offer_img">
+     <h3>Quality guarantee</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+    </div>
+</div>
+
+
+<footer>
+  <div class="footer_container">
+<div class="footer_container_contant">
+  <img src="images/logo.png" class="footer_logo">
+  <p>Subscribe to our newsletter to get updates about our grand offers.</p>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-paypal"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-youtube"></i>
+</div>
+<div class="footer_container_contant">
+  <h3>Quick Links</h3>
+  <a>Home </a>
+   <a>About Us </a>
+    <a>Offer</a>
+    <a>Services</a>
+    <a>Conatct Us</a>
+ 
+</div>
+<div class="footer_container_contant">
+  <h3>Help Center</h3>
+  <a>FAQs</a>
+   <a> Payment</a> 
+    <a>Returns & Refunds</a>
+    <a>Checkout</a>
+    <a>Delivery information</a>
+</div>
+<div class="footer_container_contant">
+  <h3>Our Newsletter</h3>
+  <p>Subscribe to our newsletter to get updates about our grand offers.</p>
+  <input type="text" placeholder="ENTER YOUR EMAIL HERE">
+</div>
+  </div>
+
+  <div id="line_div"></div>
+
+  <div class="footer_term">
+    <div class="term1">
+<p><i class="fa-regular fa-copyright"></i>2023 Waggy. All rights reserved.</p>
+    </div>
+    <div class="term2">
+<p>Free HTML Template by <span>TemplatesJungle</span></p>
+<p>Distributed by <span>ThemeWagon</span></p>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

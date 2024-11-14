@@ -1,0 +1,592 @@
+body{
+ 
+  /* background-color:; */
+   letter-spacing: 0.01625rem;
+   font-family: "Chilanka", cursive;
+   font-weight: 400;
+   font-style: normal;
+   width: 1280px;
+   height: auto;
+
+}
+
+ header{
+   width: 100%;
+   height: auto;
+ }
+
+.header_div{
+   display: flex;
+   width: 1140px;
+   height: 108px;
+   align-items: center;
+   margin: 0px 70px;
+}
+
+.main_logo{
+     width:261px;
+     height: 57px;
+     margin-right: 20px;
+}
+
+.logo_img{
+         width: 206px;
+         height: 57px;
+}
+
+.search_menu{
+   width: 451px;
+   height: 59px;
+   text-align: center;
+}
+
+.search_bar{
+    width: 415px;
+    height: 57px;
+    word-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.phon_number{
+  width:200px ;
+  height: 59px;
+  margin-right: 20px;
+  text-align: right;
+  line-height: 0.8;
+  padding-bottom: 1px;
+}
+p{
+   font-size: 20px;
+   letter-spacing: 2px;
+  
+}
+
+.num_email{
+    font-size: 20px;
+    
+}
+
+.email{
+  width:195px ;
+  height: 59px;
+  text-align: right;
+  line-height: 0.8;
+  
+}
+
+
+.nav{
+    width: 1140px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  margin: 0px 70px;
+    
+}
+
+.select_category{
+        width: 155px;
+        height: 48px;
+        
+}
+
+#dogs{
+   padding: 10px 5px;
+   font-size: 20px;
+   border: none;
+}
+
+.list_item{
+   display: flex;
+   width: 500px;
+   height: 48px;
+   align-items: center;
+}
+.list_item a{
+     margin-left: 30px;
+}
+.list_item a:hover{
+   color: chocolate;
+}
+
+.profile{
+   width: 155px;
+}
+.icon{
+   margin-right: 30px;
+   font-size: 18px;
+}
+
+.slider {
+   position: relative;
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
+   margin-top: 30px;
+   background-color: #FFF9EB;
+ 
+ }
+ 
+ .slides {
+   display: flex;
+   transition: transform 1s ease-in-out;
+  
+ }
+ 
+ .slide {
+   min-width: 100%;
+   box-sizing: border-box;
+ }
+
+
+
+.hero_container1{
+ display: flex;
+ width: 100%;
+ height: auto;
+ align-items: center;
+ background-color: #FFF9EB;
+}
+
+.dogs_img{
+  width: 50%;
+  height: auto;
+  padding-left: 110px;
+}
+.banner{
+   width: 451px;
+   height: auto;
+}
+
+.offer_text{
+   width: 60%;
+   height: auto;
+   line-height: 1;
+}
+
+.discount{
+  color: chocolate;
+  font-size: 18px;
+  line-height: 0;
+  
+}
+
+.heading{
+     font-size: 80px;
+     
+}
+.text_color{
+    color: chocolate;
+}
+
+.btn{ 
+  padding: 20px 60px;
+  font-size: 18px;
+  background-color: hwb(36 89% 7%);
+  border: 1px solid black;
+  font-family: "Chilanka", cursive;
+
+}
+.btn:hover{
+   background-color: rgba(5, 2, 2, 0.646);
+   color: white;
+}
+.arrow{
+   margin-left: 10px;
+   font-weight: 200;
+}
+
+ .dots {
+   text-align: center;
+   padding: 10px 0;
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
+   margin-top: 250px;
+ }
+ 
+ .dot {
+   display: inline-block;
+   height: 14px;
+   width: 14px;
+   margin: 0px 4px;
+   /* background-color: hsl(0, 5%, 48%); */
+   border-radius: 50%;
+   cursor: pointer;
+   border: 1px solid black;
+
+ }
+ 
+ .dot.active {
+   background-color: hwb(0 19% 80%);
+ }
+
+ .item_shop{
+   width: 1140px;
+   height: 337px;
+   display: flex;
+   margin: 70px 70px;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center; 
+
+
+  
+ }
+
+ .item_seal{
+        width: 228px;
+        height: 145px;
+        text-align: center;
+        cursor: pointer;
+ }
+
+ .item_seal p:hover{
+      font-size: 25px;
+    color: #d68e22;
+ }
+
+.item_name1{
+  width: 100px;
+  height: 100px;
+}
+
+.pet_clothing{
+  width: 1140px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 70px;
+  
+ 
+}
+
+.clothing{
+   font-size: 70px;
+
+}
+
+.clothes_shop{
+   display: flex;
+   flex-wrap: wrap;
+   width: 1140px;
+   margin: 10px 70px;
+
+}
+
+.clothes_shop_item{
+ width: 256px;
+ height: auto;
+ margin-top: 50px;
+}
+
+.card_img{
+   width: 256px;
+   height: auto;
+}
+
+.card_img h3 {
+   font-size: 30px;
+}
+
+.card_img1{
+  border-radius: 10px;
+  width: 256px;
+  height: 234px;
+ 
+}
+.m_img{
+margin: 50px 38px;
+}
+
+.m_img2{
+   margin-right:38px ;
+}
+.card_text{
+width: 256px;
+height: auto;
+}
+
+.star{
+   color: #d68e22;
+}
+.rating{
+   color: black;
+}
+.amount{
+  color: #d68e22;
+  font-size: 25px;
+  display: block;
+}
+
+.cart_btn{
+       padding: 15px 40px;
+       font-size: 20px;
+       background-color: white;
+       text-align: center;
+       border: 1px solid #4f4848c3;
+       font-family: "Chilanka", cursive;
+}
+
+.cart_icon{
+        font-size: 20px;
+       padding: 10px 20px;
+       border: 1px solid #4f4848c3;
+
+}
+
+
+.pet_Foodies{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+        width: 1140px;
+        margin:100px 70px 0px 70px ;
+}
+
+.food_option a {
+   margin-left: 15px;
+   cursor: pointer;
+}
+.food_option a:hover{
+     text-decoration: underline;
+     color: brown;
+
+}
+
+.hero_container2{
+   display: flex;
+   width: 100%;
+   height: auto;
+   align-items: center;
+   background-color: #FFF9EB;
+   margin-top: 100px;
+  }
+
+.offer_text2{
+   width: 60%;
+   height: auto;
+   line-height: 1;
+   text-align: center;
+}
+
+.discount2{
+    color: #d68e22;
+    font-size: 30px;
+    line-height: 0;
+}
+.slides2{
+      width: 1240px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 131px;
+}
+.slide2{
+   text-align: left;
+   width: 1140px;
+   line-height: 2;
+   padding-left: 150px;
+ 
+}
+
+.slide2 p {
+    font-size: 35px;
+    
+}
+.contact_bg{
+   background-color: #FFF9EB;
+   padding: 30px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.contact{
+   width: 1140px;
+    margin: 100px 70px 10px 70px;
+    text-align: center;
+    
+}
+
+.contact p{
+     font-size: 60px;
+     margin-bottom: 0px;
+}
+.contact span {
+    color: #d68e22;
+}
+.contact input {
+               display: block;
+               padding: 20px 300px 20px 20px;
+               margin-bottom: 20px;
+               font-size: 20px;
+                margin-left: 320px;
+                padding-left: 20px;
+                border-radius: 10px;
+                border: 1px solid black;
+}
+
+.contact button{
+        padding: 20px 195px 20px 195px;
+        font-size: 20px;
+        background-color: #464242;
+        color: white;
+        border-radius: 10px;
+        margin-left: 52px;
+} 
+
+.contact button:hover{
+   background-color: hsl(0, 3%, 13%);
+}
+
+.blog_container{
+   width: 1170px;
+   height: auto;
+   display: flex;
+   margin: 10px 70px 150px 70px;
+   justify-content: center;
+
+
+}
+
+.blog_div{
+     width: 380px;
+     height: 615px;
+     padding: 0px 12px;
+}
+
+.blog1{
+    width: 356px;
+    height: 311px;
+    border-radius: 10px;
+}
+
+.blog2{
+   width: 356px;
+   height: 383px;
+   border-radius: 10px;
+}
+.blog3{
+   width: 356px;
+   height: 246px;
+   border-radius: 10px;
+}
+
+.blog_div h3{
+font-size: 30px;
+}
+
+.blog_div p{
+color: hwb(0 53% 44%);
+}
+
+.blog_div a{
+   color: hwb(0 53% 44%);
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.card_offer{
+    display: flex;
+    width: 1140px;
+    height: auto;
+    margin: 10px 70px;
+    justify-content: space-between;
+}
+
+
+.card_offer_div{
+   width: 243px;
+   height: auto;
+}
+.card_offer_div p{
+   color: hwb(0 53% 44%);
+}
+
+.card_offer_img{
+   width: 40px;
+   height: 40px;
+   border: 1px solid black;
+   border-radius: 50%
+
+}
+
+.footer_container{
+   width: 1140px;
+   height: 315px;
+   display: flex;
+   margin: 100px 70px 20px 70px;
+   justify-content: space-between;
+
+}
+
+.footer_container_contant{
+     width: 265px;
+     height: auto;
+}
+
+.footer_logo{
+   width: 206px;
+   height: 57px;
+}
+.footer_container_contant i {
+   font-size: 30px;
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.footer_container_contant a{
+     display: block;
+     line-height: 2;
+     cursor: pointer;
+}
+
+.footer_container_contant a:hover{
+    color: #d68e22;
+}
+
+.footer_container_contant input{
+         padding: 15px 30px;
+         border-radius: 20px;
+         border: 1px solid black;
+}
+
+.footer_container_contant p{
+   color: hwb(0 53% 44%);
+}
+#line_div{
+     width: 1140px;
+     height: 1px;
+     background-color: hwb(0 53% 44%);
+     margin: 1px 70px;
+}
+
+
+.footer_term{
+   width: 1140px;
+   height: auto;
+   display: flex;
+   margin: 10px 70px 20px 70px;
+   justify-content: space-between;
+}
+
+.term1{
+      width: 500px;
+      height: 90px;
+}
+
+.term2{
+   width: 500px;
+   height: 90px;
+   text-align: right;
+}
+.term2 p span {
+    color: hwb(0 53% 44%);
+    text-decoration: underline;
+}
